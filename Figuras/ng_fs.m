@@ -22,6 +22,6 @@ plot(P,Qlvad*SF,P,Qrvad*SF, 'linewidth',2)
 legend('QLVAD', 'QRVAD', 'Location','southeast');
 grid on
 xlabel('Tempo (s)')
-ylabel('Fluxo (L/min)','interpreter','latex')
+ylabel('Taxa de Fluxo (L/min)','interpreter','latex')
 set(gca,'FontSize',16)
 set(gca,'fontname','times')
